@@ -1,0 +1,35 @@
+.home-page {
+    height: calc(100vh);
+    margin: 0;
+    position: relative;
+
+    .background {
+        height: 100%;
+        object-fit: cover;
+        background-image: url('../../assets/Onett_layout.png');
+        opacity: 0.55;
+    }
+
+    .content {
+        height: 100%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+
+        .header-container {
+            position: absolute;
+            top: 45%; left: 47%;
+            transform: translate(-50%,-45%);
+            border: 3px solid white;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 10%;
+            text-shadow: 0 0 7px black;
+            color: white;
+
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+}
